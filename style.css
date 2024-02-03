@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+#conteudo_principal {
+  justify-content: center;
+}
+
+#pergunta {
+  font-size: x-large;
+}
+
+button {
+  padding: 3vh 4vw;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  font-size: medium;
+  cursor: pointer;
+}
+
+#botaoSim {
+  background-color: #7bd3ea;
+}
+
+#botaoNao {
+  background-color: #ff8080;
+}
